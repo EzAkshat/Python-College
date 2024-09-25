@@ -1,0 +1,1 @@
+# 17. Write a python program to convert Decimal to Binary, Octal and Hexadecimal.

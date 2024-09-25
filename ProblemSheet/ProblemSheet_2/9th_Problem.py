@@ -1,0 +1,1 @@
+# 9. Write a python program to check whether the given string is palindrome or not.

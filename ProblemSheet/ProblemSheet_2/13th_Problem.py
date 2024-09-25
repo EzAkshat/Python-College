@@ -1,0 +1,1 @@
+# 13. Write a program to print half pyramid using *.

@@ -1,0 +1,1 @@
+# 14. Write a program to print inverted half pyramid using Numbers.

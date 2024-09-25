@@ -1,0 +1,1 @@
+#19. Write a python program to count No of Uppercase Characters, Lowercase Characters, Digits, Special Characters and Space from the sentence.

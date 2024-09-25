@@ -1,0 +1,1 @@
+#27. Write a python program to count frequency of a given element in a list of numbers.

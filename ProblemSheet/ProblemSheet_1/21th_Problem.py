@@ -1,0 +1,1 @@
+#21. Write a python program to display each words along with it’s total no of characters and at the end display word which have maximum character.

@@ -1,0 +1,1 @@
+#Write a program that will calculate summation of numbers stored at even locations and summation of numbers stored at odd locations in list with 10 elements.

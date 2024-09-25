@@ -1,0 +1,1 @@
+#26. Write a python program to find minimum element from a list of element along with its index in the list.

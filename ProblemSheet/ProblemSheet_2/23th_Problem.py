@@ -1,0 +1,1 @@
+# 23. Write a python program to find the factors of a number.

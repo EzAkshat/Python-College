@@ -1,0 +1,1 @@
+#16. Write program to find the Armstrong numbers between 100 and 1000.

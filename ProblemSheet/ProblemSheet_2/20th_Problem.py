@@ -1,0 +1,1 @@
+# 20. Write a python program to find Armstrong number in an interval.

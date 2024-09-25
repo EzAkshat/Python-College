@@ -1,0 +1,1 @@
+#20. Write a python program to convert sentence in toggle case without using in-built function.

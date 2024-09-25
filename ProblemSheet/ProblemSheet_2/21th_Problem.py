@@ -1,0 +1,1 @@
+# 21. Write a python program to find HCF Or GCD.

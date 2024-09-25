@@ -1,0 +1,1 @@
+# 15. Write a program of Pascal’s triangle.

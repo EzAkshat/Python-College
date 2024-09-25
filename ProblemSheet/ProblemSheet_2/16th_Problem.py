@@ -1,0 +1,1 @@
+# 16. Write a program of Floyd’s Triangle

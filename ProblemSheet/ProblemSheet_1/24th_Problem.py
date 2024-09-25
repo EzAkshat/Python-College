@@ -1,0 +1,1 @@
+#24. Write a python program to create menu driven program of list which perform insert, update, delete, search, sorting and display element in or from list. Also provide nested menu for delete, sorting.

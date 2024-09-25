@@ -1,0 +1,1 @@
+#28. Write a python program to create menu driven program of dictionary which perform insert, update, delete, and display element in or from dictionary. Also provide nested menu for delete element.
