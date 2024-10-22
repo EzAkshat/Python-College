@@ -15,7 +15,7 @@ def Input():
 def MaxUsingIf(A,B,C):
     MaxNum = A
     if B > MaxNum:
-        MaxNum = B
+        MaxNum = B  
     if C > MaxNum:
         MaxNum = C
     return MaxNum
