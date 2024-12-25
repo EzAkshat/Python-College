@@ -2,11 +2,11 @@
 
 import math as m
 
-Radius = float(input("Enter the radius of the circle: "))
-Pi = m.pi
+r = float(input("Enter value of radius : "))
+pi = m.pi
 
-Area = Pi * Radius**2
-print(f"Area of circle is {Area}")
+area_of_circle = pi*(r * r)
+circumference = 2*pi*r
 
-Circumference = 2 * Pi * Radius
-print(f"Circumference of circle is {Circumference}")
+print("Area of circle is : ",area_of_circle)
+print("circumference of circle is : ", circumference)

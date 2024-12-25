@@ -1,9 +1,9 @@
 # 3. Write a python program to find the simple interest for the given data.
 
-P = float(input("Enter the principal amount : "))
-R = float(input("Enter the annual interest rate (in percentage) : "))
-N = float(input("Enter the number of years : "))
+principal_amount = float(input("Enter Principal amount : "))
+rate_of_interest = float(input("Enter rate of interest : "))
+number_of_year = int(input("Enter number of years : "))
 
-Simple_intrest = (P * R * N) / 100
+simple_interest = (principal_amount * rate_of_interest * number_of_year)/100
 
-print(f"The simple interest for the given data is : {Simple_intrest}")
+print("Simple interest is : ",simple_interest)

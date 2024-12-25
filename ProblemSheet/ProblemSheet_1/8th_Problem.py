@@ -1,35 +1,24 @@
 #8. Write a python program to accept two integers from user and display addition, Subtraction, Multiplication, Division of two integers.
 
-def main():
-    A = int(input("Enter Value for A: "))
-    B = int(input("Enter Value for B: "))
-    return A, B
+a = int(input("Enter first value : "))
+b = int(input("Enter second value : "))
 
-def addition(A, B):
-    result = A + B
-    print(f"Answer of {A} + {B} is {result}")
+def add(x,y):
+    return x + y
 
-def subtraction(A, B):
-    result = A - B
-    print(f"Answer of {A} - {B} is {result}")
+def sub(x,y):
+    return x - y
 
-def multiplication(A, B):
-    result = A * B
-    print(f"Answer of {A} * {B} is {result}")
+def mul(x,y):
+    return x * y
 
-def division(A, B):
-    if B != 0:
-        result = A / B
-        print(f"Answer of {A} / {B} is {result}")
+def div(x,y):
+    if y == 0:
+        return "can't divide by zero"
     else:
-        print("Division by zero is not allowed")
-
-def calc(A, B):
-    addition(A, B)
-    subtraction(A, B)
-    multiplication(A, B)
-    division(A, B)
-
-A, B = main()
-print("--------------------------------------")
-calc(A, B)
+        return x / y
+    
+print(f"Addition of {a} + {b} is {add(a,b)}")
+print(f"Subtraction of {a} - {b} is {sub(a,b)}")
+print(f"Multiplication of {a} * {b} is {mul(a,b)}")
+print(f"Divition of {a} / {b} is {div(a,b)}")

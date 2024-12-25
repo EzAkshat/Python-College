@@ -1,17 +1,16 @@
 # 4. Write a python program to swap the content of two variables using third variable.
 
-A = int(input("Enter the value of A : "))
-B = int(input("Enter the value of B : "))
-print("----------------------------")
-print(f"Before swap A = {A}")
-print(f"Before swap B = {B}")
-print("----------------------------")
+A = 10
+B = 12
+
+print("<-------- Before swap -------->")
+print(f"Before swap A is {A}")
+print(f"Before swap B is {B}")
 
 temp = A
 A = B
 B = temp
 
-print("----------------------------")
-print(f"After swap A = {A}")
-print(f"After swap B = {B}")
-print("----------------------------")
+print("<-------- After swap -------->")
+print(f"After swap A is {A}")
+print(f"After swap B is {B}")

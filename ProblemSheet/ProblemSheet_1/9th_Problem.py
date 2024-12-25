@@ -1,43 +1,43 @@
 #9. Write a python program to find maximum no from 3 number using if, if..elif and nested if.
-def Input():
-    A = int(input("Enter the first number : "))
-    B = int(input("Enter the second number : "))
-    C = int(input("Enter the third number : "))
-    
-    MaxIf = MaxUsingIf(A,B,C)
-    MaxIfElif = MaxUsingIfElif(A,B,C)
-    MaxNestedIf = MaxUsingNestedIf(A,B,C)
-    
-    print(f"The maximum number using 'if' is: {MaxIf}")
-    print(f"The maximum number using 'if..elif' is: {MaxIfElif}")
-    print(f"The maximum number using 'nested if' is: {MaxNestedIf}")
 
-def MaxUsingIf(A,B,C):
-    MaxNum = A
-    if B > MaxNum:
-        MaxNum = B  
-    if C > MaxNum:
-        MaxNum = C
-    return MaxNum
+a = 1
+b = 2
+c = 3
 
-def MaxUsingIfElif(A,B,C):
-    if A >= B and A >= C:
-        return A
-    elif B >= A and B >= C:
-        return B
+def using_if(x,y,z):
+    MaxNum = x
+    if y > MaxNum:
+        y = MaxNum
+    
+    if z > MaxNum:
+        MaxNum = z
+
+    print(f"The maximum number is: {MaxNum}")
+
+def using_elif(x,y,z):
+    if x >= y and y >= z:
+        MaxNum = x
+    elif y >= x and y >= z:
+        MaxNum = y
     else:
-        return C
+        MaxNum = z
+        
+    print(f"The maximum number is: {MaxNum}")
 
-def MaxUsingNestedIf(A,B,C):
-    if A >= B:
-        if A >= C:
-            return A
+def nested_if(x,y,z):
+    if x >= y:
+        if x >= z:
+            MaxNum = x
         else:
-            return C
+            MaxNum = z
     else:
-        if B >= C:
-            return B
+        if y >= z:
+            MaxNum = y
         else:
-            return C
-    
-Input()
+            MaxNum = z
+        
+    print(f"The maximum number is: {MaxNum}")
+
+using_if(a,b,c)
+using_elif(a,b,c)
+nested_if(a,b,c)
